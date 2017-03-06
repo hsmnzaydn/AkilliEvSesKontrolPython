@@ -52,6 +52,10 @@ while True:
             mp3_dosyalarini_guncelle.guncelle()
         if istek=="ses degistir":
             sesdosyasi_islemleri.sesKontrol(baglanti.sesGetir("Ses"))
+        if istek=="ışık yak":
+            Led_kontrolleri.LedYak()
+        if istek=="ışık söndür":
+            Led_kontrolleri.LedKapat()
 
         Alarm.AlarmVarmi(alarm_sayac)
 

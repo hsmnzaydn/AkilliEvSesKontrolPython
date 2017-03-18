@@ -1,8 +1,8 @@
 import pygame
 import os
 import baglanti
-import time
 
+#Hüseyin Serkan Özaydin
 
 muziklist="null"
 

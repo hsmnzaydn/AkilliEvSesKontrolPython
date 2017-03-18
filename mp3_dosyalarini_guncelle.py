@@ -3,7 +3,7 @@ import os
 import youtube_dl
 import baglanti
 
-
+#Hüseyin Serkan Özaydin
 def guncelle():
     playlistler = ["https://www.youtube.com/watch?v=QjRYopBRUIc&list=PLXWpn_yYkUxe4bzNK3PD4S4U70yX70_zm",
                    "https://www.youtube.com/watch?v=DRONV_7UL8A&list=PLXWpn_yYkUxfBgVbaqsoP46f9o7TccBbj",

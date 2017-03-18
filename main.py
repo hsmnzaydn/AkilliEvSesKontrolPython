@@ -8,7 +8,7 @@ import havadurumu
 import Led_kontrolleri
 import mp3_dosyalarini_guncelle
 
-
+#Hüseyin Serkan Özaydin
 alarm_sayac="null"
 ses_seviyesi=baglanti.sesGetir("Ses")
 while True:

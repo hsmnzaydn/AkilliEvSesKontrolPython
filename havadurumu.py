@@ -3,7 +3,7 @@ import requests
 from gtts import gTTS
 import sesdosyasi_islemleri
 import time
-
+#Hüseyin Serkan Özaydin
 
 def havadurumu():
     source = requests.get('http://www.mynet.com/havadurumu/asya/turkiye/istanbul')

@@ -1,6 +1,7 @@
 import RPi.GPIO as GPIO
 import baglanti
 acik_mi="false"
+#Hüseyin Serkan Özaydin
 def LedYak():
         global acik_mi
         GPIO.output(12, GPIO.HIGH)

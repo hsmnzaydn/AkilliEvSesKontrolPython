@@ -2,7 +2,7 @@ from gtts import gTTS
 import sesdosyasi_islemleri
 import time
 import baglanti
-
+#Hüseyin Serkan Özaydin
 
 def konus(soylenecek_soz):
     tts = gTTS(text=soylenecek_soz, lang='tr')

@@ -1,4 +1,4 @@
-
+#Hüseyin Serkan Özaydin
 import datetime
 import baglanti
 import sesdosyasi_islemleri

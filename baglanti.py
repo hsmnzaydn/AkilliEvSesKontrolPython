@@ -2,7 +2,7 @@ import pyrebase
 
 
 
-
+#Hüseyin Serkan Özaydin
 def baglan():
   config = {
     "apiKey": "AIzaSyCEuBkRQxbgbahfhMJ-thQ-6IfCJOprKBA",

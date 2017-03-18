@@ -5,7 +5,7 @@ import Alarm
 import time
 import os
 import havadurumu
-import Led_kontrolleri
+#import Led_kontrolleri
 import mp3_dosyalarini_guncelle
 
 #Hüseyin Serkan Özaydin
@@ -52,17 +52,14 @@ while True:
             mp3_dosyalarini_guncelle.guncelle()
         if istek=="ses degistir":
             sesdosyasi_islemleri.sesKontrol(baglanti.sesGetir("Ses"))
-        if istek=="ışık yak":
-            Led_kontrolleri.LedYak()
-        if istek=="ışık söndür":
-            Led_kontrolleri.LedKapat()
+       # if istek=="ışık yak":
+        #    Led_kontrolleri.LedYak()
+        #if istek=="ışık söndür":
+         #   Led_kontrolleri.LedKapat()
 
         Alarm.AlarmVarmi(alarm_sayac)
 
-       # if istek=="led yak":
-        #    Led_kontrolleri.LedYak()
-        #if istek=="led söndür":
-         #   Led_kontrolleri.LedKapat()
+
 
 
 

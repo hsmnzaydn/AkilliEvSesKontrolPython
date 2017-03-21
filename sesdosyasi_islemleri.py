@@ -1,7 +1,6 @@
 import pygame
 import os
 import baglanti
-
 #Hüseyin Serkan Özaydin
 
 muziklist="null"
@@ -113,6 +112,7 @@ def AlarmCal():
     pygame.mixer.music.load("alarm.mp3")
     pygame.mixer.music.play()
     alarm_durumu="Alarm başladı"
+
 def alarmKapat():
     global alarm_durumu
     if alarm_durumu=="Alarm başladı":

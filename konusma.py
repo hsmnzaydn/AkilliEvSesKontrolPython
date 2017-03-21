@@ -1,6 +1,5 @@
 from gtts import gTTS
 import sesdosyasi_islemleri
-import time
 import baglanti
 #Hüseyin Serkan Özaydin
 
@@ -10,3 +9,5 @@ def konus(soylenecek_soz):
     sesdosyasi_islemleri.konusma()
     baglanti.veriGonder("Komut","bos")
     baglanti.veriGonder("Çıktı",soylenecek_soz)
+
+

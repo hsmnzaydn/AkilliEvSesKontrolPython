@@ -81,4 +81,3 @@ while True:
         os.system("$> ps -ef | grep python")
         os.system("python main.py")
 
-     #   print("Sistem kapandı tekrar acılıyor")

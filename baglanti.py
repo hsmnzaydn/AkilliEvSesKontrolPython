@@ -5,10 +5,11 @@ import pyrebase
 #Hüseyin Serkan Özaydin
 def baglan():
   config = {
-    "apiKey": "",
-    "authDomain": "",
-    "databaseURL": "",
-    "storageBucket": ""
+    "apiKey": "AIzaSyBEjPYxLHPmBKcUu0gYh2ivyFxfcpUmEkw",
+    "authDomain": "evkontrol-4454d.firebase.app",
+    "databaseURL": "https://evkontrol-4454d.firebaseio.com",
+    "storageBucket": "evkontrol-4454d.appspot.com"
+
 
   }
 
